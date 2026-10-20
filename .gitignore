@@ -1,0 +1,30 @@
+# Build outputs and binaries
+bin/
+build/
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.dylib
+*.so
+
+# Sensitive test files and credentials
+*.key
+*.secret
+*.pem
+*.env
+*.enc
+*.sfe
+samples/*.enc
+samples/*.sfe
+
+# Temporary and editor files
+*.tmp
+*.log
+*~
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
